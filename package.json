@@ -1,0 +1,28 @@
+{
+  "name": "nestjs-auto-env-joi",
+  "version": "1.0.0",
+  "description": "Auto Joi validation schema generation for .env files in NestJS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "nestjs",
+    "env",
+    "validation",
+    "joi",
+    "config"
+  ],
+  "author": "Yassine Jdidi <yassinejedidi10@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^17.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
