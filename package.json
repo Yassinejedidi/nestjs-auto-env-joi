@@ -1,6 +1,6 @@
 {
   "name": "nestjs-auto-env-joi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Auto Joi validation schema generation for .env files in NestJS",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
