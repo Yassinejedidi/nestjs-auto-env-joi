@@ -54,7 +54,9 @@ export function AutoEnvValidation(options: AutoEnvValidationOptions = {}) {
 
     const key = envMatch[1].trim();
     if (!currentTypeTag) {
-      throw new Error(`Missing type tag for env variable"`);
+       throw new Error(
+    `Missing type tag for env variable "${key}" on line ${i + 1}`
+  );
     }
     let joiSchema: any;
 
